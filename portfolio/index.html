@@ -7,31 +7,20 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Lato", sans-serif;
-  }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
 
-  body,
-  html {
-    height: 100%;
-    color: #454545;
-    line-height: 1.8;
-  }
-
-  /* Create a Parallax Effect */
-  .bgimg-1,
-  .bgimg-2 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   /* First image (Logo. Full height) */
   .bgimg-1 {
@@ -101,12 +90,10 @@
 
     <p>The core goal of FFAR250 Keywords: Reading the Arts Across the Disciplines is to
       practice considering artistic intent and production alongside historical
-      forces, international shifts in culture, economies, and politics.This website is a submission for my FFAR 250 class portfolio, as well as a
+      forces, international shifts in culture, economies, and politics. This website is a submission for my FFAR 250 class portfolio, as well as a
       presentation of all my reflections throughout 26 weeks of class.
-    </p>
-
-    <p>The works on this site includes the prompts given during lecture sections.
-      The keywords are digital (free selection), home, museum, digital, borderlands, future and an open entry.
+      The works on this site includes the prompts given during lecture sections.
+      The keywords are digital (free selection), home, museum, digital, borderlands, future and open entry.
     </p>
     <br>
     <div class="w3-row">
@@ -119,14 +106,27 @@
       <div class="w3-col m6 w3-hide-small w3-padding-large">
         <br><br>
         <p>Welcome to my FFAR 250 porfolio. I am a first-year Computation Art student who
-          is passionate about making video games, sketching and tattoos.
+          is passionate about artistic programming, making video games, and tattoo designs.
         </p>
 
-        <p> Feel free to use my website, including my art as a reference for anything.</p>
+        <p> Feel free to use my website, including my art as a reference for anything. Email me at: sun19980@gmail.com</p>
+        <br>
+        <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
       </div>
     </div>
-
-    <br>
     <br>
   </div>
 
@@ -146,7 +146,7 @@
     <div class="w3-row-padding w3-center">
       <div class="w3-col m3">
         <a href="#ex1" rel="modal:open"><img src="images/prompt1.png" style="width:100%" class="w3-hover-opacity" </a> <div id="ex1" class="modal">
-          <p><b>DIGITAL</b></p>
+          <p><b>FREE SELECTION: DIGITAL</b></p>
           <img src="images/vangogh.jpg" style="width:100%">
           <p>Janet Sun. <i>Imaging Van Gogh</i>. Photograph. 2020 Montreal, Canada.</p>
           <p>The evolution of technologies has changed the way we view art. The digitalization of artworks can be seen a revolution of fine arts. As a computation art student and someone who is passionate about the technology industry, I feel like I
@@ -221,6 +221,11 @@
     <div class="w3-col m3">
       <a href="#ex6" rel="modal:open"><img src="images/prompt6.png" style="width:100%" class="w3-hover-opacity"></a>
       <div id="ex6" class="modal">
+        <p><b>FUTURES</b></p>
+        <img src="images/collage.jpg" style="width:100%">
+        <p>Janet Sun. Photo collage.</p>
+        <p>I think that the future is technologies. When we talk about predicting futures, the discussion often ties with the development of technology. We often question: How will technology affect us as a specie in the future? Or will news inventions, such as AI robots, replace/destroy humans? My inspiration for this collage comes from my favorite science fiction show, <i>Black Mirror</i>. Although the stories are fictional, I think that the artwork plays an important role of criticizing the use of advanced technologies. The whole series focus around the word “error”. Stories are often tragedies caused by technologies malfunctioning and user errors. The stories also often reflect on the ethics of using technical devices, such as surveillance, freedom of speech, and control. Moreover, the series discuss the line between human’s physical body and human consciousness, also between life and death. I sometimes question if our memory will be replaced by micro chips in the future, or if our consciousness will be moved into a server after we die (people’s “mind” still alive after the physical body dies). If so, how will the subjectivity of human consciousness be stored as data in a physical piece of device? How will we define what is “alive”? Personally, I believe that as a specie, we are ought to use the power of technology responsibly and ethnically. However, the future with technologies is unpredictable.</p>
+        <p></p>
       </div>
     </div>
 
@@ -246,9 +251,9 @@
   <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     <div class="w3-xlarge w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <a href='https://www.facebook.com/janet.titt/'><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href='https://www.instagram.com/mr.mypurse/?hl=en'><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href='https://www.linkedin.com/in/janet-yiting-sun-95904a127/'><i class="fa fa-linkedin w3-hover-opacity"></i></a>
     </div>
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   </footer>
